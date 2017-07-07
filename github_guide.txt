@@ -16,4 +16,11 @@ pwd显示当前的目录
 8、git add readme.txt
 9、git commit -m "提交测试文件"
 10、git status  //查看文件情况
-以后每次更新文件都要进行8和9，其中8可以添加多个文件
+    以后每次更新文件都要进行8和9，其中8可以添加多个文件
+
+版本回退
+11查看版本信息git log
+   git log --pretty=oneline
+12 版本回退 git reset --hard head^
+   ^表示上一个版本，^^标识上上一个版本，head~10标识前10个版本，还可以是使用git reset --hard 版本号
+13 git reflog 查看历史命令，通过历史命令可以查找到版本号
