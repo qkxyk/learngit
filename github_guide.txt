@@ -16,3 +16,4 @@ pwd显示当前的目录
 8、git add readme.txt
 9、git commit -m "提交测试文件"
 10、git status  //查看文件情况
+以后每次更新文件都要进行8和9，其中8可以添加多个文件
